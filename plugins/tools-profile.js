@@ -13,13 +13,13 @@ let handler = async (m, { conn }) => {
     let str = `
 
 ✧───────[ *PROFILE* ]───────✧
-📇 • *Name:* ${username} ${registered ? '(' + name + ') ': ''}
+🌙 • *Name:* ${username} ${registered ? '(' + name + ') ': ''}
 📧 • *Tag:* @${who.replace(/@.+/, '')}
 📞 • *Number:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 💻 • *Link:* https://wa.me/${who.split`@`[0]}
 ${registered ? '🎨 • *Age:* ' + age : ''}
 
-🌟 • *Premium:* ${premium ? "✅" :"❌"}
+✨ • *Premium:* ${premium ? "✅" :"❌"}
 📑 • *Registered:* ${registered ? '✅': '❌'}
 ⛔ • *Banned:* ❌
 
